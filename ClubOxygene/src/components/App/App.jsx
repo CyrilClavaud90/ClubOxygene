@@ -1,10 +1,10 @@
+import Header from "../Header/Index"
+
 function App() {
   return (
-    <>
-      <p>
-        test
-      </p>
-    </>
+    <div className="body__container">
+      <Header />
+    </div>
   )
 }
 
