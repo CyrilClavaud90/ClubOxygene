@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 function Footer() {
+      const toTop = () => window.scroll(0, 0);
+
       return (
             <footer className="footer">
                   <div className="footer__container">
@@ -18,7 +21,7 @@ function Footer() {
                               </div>
 
                               <div className="footer__scroll-to-top">
-                                    <span className="footer__scroll-to-top__link">
+                                    <span onClick={toTop} className="footer__scroll-to-top__link">
                                           To the top 
                                     </span>
                                     <span>
@@ -54,8 +57,8 @@ function Footer() {
 
                         <div className="footer__bottom">
                               <div className="footer__copyright">
-                                    <a href="#">Mentions Légales</a>
-                                    <a href="#">Règlement Intérieur</a>
+                                    <Link to={ '/legal' }>Mentions Légales</Link>
+                                    <Link to={ '/rule' }>Règlement Intérieur</Link>
                               </div>
                         </div>
                   </div>

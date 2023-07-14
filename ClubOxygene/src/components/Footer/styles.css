@@ -23,6 +23,11 @@ footer {}
       }
 }
 
+.footer__scroll-to-top__link:hover,
+.footer__scroll-to-top__logo:hover {
+      cursor: pointer;
+}
+
 .footer__scroll-to-top {
       display: flex;
       align-items: center;
@@ -73,7 +78,7 @@ footer {}
       bottom: -10px;
       height: 2px;
       width: 20%;
-      background-color: red;
+      background-color: #34a853;
 }
 
 .footer__text {
