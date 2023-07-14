@@ -1,7 +1,3 @@
-footer {}
-
-.footer__container {}
-
 /* === Footer top === */
 .footer__top {
       display: flex;
@@ -12,10 +8,6 @@ footer {}
 .footer__social > .footer__social__link {
       margin-right: 1.5rem;
 }
-
-.footer__social__link {}
-
-.footer__social__logo {}
 
 @media screen and (max-width: 768px) {
       .footer__social__alt {
@@ -53,12 +45,6 @@ footer {}
       padding: 4rem 0.5rem;
       text-align: center;
 }
-
-.footer__address {}
-
-.footer__contact {}
-
-.footer__schedule {}
 
 .footer__title {
       position: relative;
@@ -116,7 +102,7 @@ footer {}
       .footer__top,
       .footer__main,
       .footer__bottom {
-            padding: 0 10%;
+            padding: 2rem 10%;
       }
 }
 
@@ -124,10 +110,6 @@ footer {}
       .footer__top,
       .footer__main,
       .footer__bottom {
-            padding: 0 20%;
-      }
-
-      .footer__social {
-            margin: 2rem 0;
+            padding: 2rem 20%;
       }
 }

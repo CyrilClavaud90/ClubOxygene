@@ -1,0 +1,60 @@
+.coachs__container {
+      padding: 3rem 1rem;
+      background-color: #f6f6f6;
+}
+
+.coachs__title {
+      text-align: center;
+      padding-bottom: 1rem;
+}
+
+.coachs__list {}
+
+.person__card {
+      margin: 2rem 0;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+}
+
+.person__image {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+}
+
+.person__info {
+      padding: 1rem 0.5rem;
+}
+
+.person__title {
+      margin-bottom: 1rem;
+      text-align: center;
+      font-weight: 400;
+      font-size: 1.5rem;
+}
+
+.person__presentation {
+      text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+      .coachs__container {
+            padding: 3rem 10%;
+      }
+
+      .coachs__list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+      }
+
+      .person__card {
+            width: 46%;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .coachs__container {
+            padding: 3rem 20%;
+      }
+}
