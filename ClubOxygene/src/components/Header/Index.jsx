@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function Header() {
@@ -16,16 +17,16 @@ function Header() {
             <header className="header">
                   <nav className="nav__container">
                         <div className="nav__logo">
-                              <a href="#">
+                              <Link to={ '/' }>
                                     <img src="https://www.club-oxygene.com/wp-content/uploads/2017/03/Logo-good-size.png" alt="club oxygène logo" />
-                              </a>
+                              </Link>
                         </div>
                         
                         <div className="nav__menu">
                               <div className="nav__logo menu__logo">
-                                    <a href="#">
+                                    <Link to={ '/' } onClick={closeMenu}>
                                           <img src="https://www.club-oxygene.com/wp-content/uploads/2017/03/Logo-good-size.png" alt="club oxygène logo" />
-                                    </a>
+                                    </Link>
                               </div>
 
                               <ul className="nav__list">

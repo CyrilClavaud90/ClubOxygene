@@ -1,0 +1,48 @@
+.legal__container,
+.rule__container {
+      padding: 3rem 1rem;
+}
+
+.rule__title,
+.legal__title {
+      text-align: center;
+      padding-bottom: 1rem;
+}
+
+.legal__container div,
+.rule__container div {
+      margin-top: 2rem;
+}
+
+.legal__container p,
+.rule__container p {
+      text-align: justify;
+}
+
+span {
+      font-weight: 400;
+}
+
+@media screen and (min-width: 769px) {
+      .legal__container,
+      .rule__container {
+            padding: 4rem 10%;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .legal__container,
+      .rule__container {
+            padding: 4rem 20%;
+      }
+
+      .rule__title,
+      .legal__title {
+      font-size: 2.8rem;
+}
+
+      .legal__container p,
+      .rule__container p {
+            font-size: 0.9rem;
+      }
+}

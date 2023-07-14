@@ -12,6 +12,7 @@ html {
 
 body {
       min-height: 100vh;
+      font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -22,7 +23,15 @@ a:hover {
       cursor: pointer;
 }
 
-/* h1 {} */
+h1 {
+      font-weight: 500;
+}
+
+p {
+      font-weight: 300;
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+}
 
 button {
   border: none;
