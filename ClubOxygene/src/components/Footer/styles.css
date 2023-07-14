@@ -88,6 +88,7 @@ footer {}
       display: flex;
       justify-content: space-between;
       margin: 2rem 1rem;
+      font-size: 0.9rem;
 }
 
 @media screen and (min-width: 426px) {
@@ -103,6 +104,14 @@ footer {}
       .footer__copyright {
             display: flex;
             justify-content: space-evenly;
+      }
+}
+
+@media screen and (min-width: 769px) {
+      .footer__top,
+      .footer__main,
+      .footer__bottom {
+            padding: 0 10%;
       }
 }
 

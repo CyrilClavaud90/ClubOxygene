@@ -7,12 +7,12 @@ function Footer() {
                         <div className="footer__top">
                               <div className="footer__social">
                                     <a href="#" className="footer__social__link">
-                                          <i class="uil uil-facebook footer__social__logo"></i>
+                                          <i className="uil uil-facebook footer__social__logo"></i>
                                           <span className="footer__social__alt"> Facebook</span>
                                     </a>
 
                                     <a href="#" className="footer__social__link">
-                                          <i class="uil uil-instagram footer__social__logo"></i>
+                                          <i className="uil uil-instagram footer__social__logo"></i>
                                           <span className="footer__social__alt"> Instagram</span>
                                     </a>
                               </div>
@@ -22,7 +22,7 @@ function Footer() {
                                           To the top 
                                     </span>
                                     <span>
-                                          <i class="uil uil-arrow-up footer__scroll-to-top__logo"></i>
+                                          <i className="uil uil-arrow-up footer__scroll-to-top__logo"></i>
                                     </span>
                               </div>
                         </div>
