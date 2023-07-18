@@ -6,6 +6,7 @@ import CoachDetails from "../Coachs/CoachDetails";
 import Footer from "../Footer";
 import Legal from "../Copyright/legal";
 import Rule from "../Copyright/rule";
+import CardioMuscu from "../CardioMuscu";
 
 function App() {
       const routePath = useLocation();
@@ -20,6 +21,8 @@ function App() {
 
       <Routes>
             <Route path="/" element={ <p>test</p> } />
+
+            <Route path="/cardiomuscu" element={ <CardioMuscu /> } />
 
             <Route path="/coach/:id" element={ <CoachDetails /> } />
             <Route path="/coachs" element={ <Coachs /> } />

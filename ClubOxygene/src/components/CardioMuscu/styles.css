@@ -1,0 +1,149 @@
+.cardio__container {
+      padding: 3rem 1rem;
+      background-color: #f6f6f6;
+}
+
+.cardio__title {
+      text-align: center;
+      padding-bottom: 1rem;
+}
+
+.slide__container {
+      margin: 2rem 0;
+}
+
+.slider__img {
+      width: 100%;
+}
+
+.cardio__section {
+      margin: 2rem 0;
+      padding-bottom: 1.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+}
+
+.cardio__image {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+}
+
+.cardio__infos {
+      text-align: center;
+      padding: 1rem 0.5rem;
+}
+
+.cardio__infos__title {
+      margin-bottom: 1rem;
+      font-weight: 500;
+}
+
+.cardio__info {
+      margin-bottom: 1.5rem;
+}
+
+.cardio__link {
+      padding: 0.3rem 1rem;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #34a853;
+}
+
+@media screen and (min-width: 426px) {
+      .cardio__section {
+            margin: 4rem 0;
+            padding-bottom: 0;
+            display: flex;
+            border-radius: 0;
+            box-shadow: none;
+            background-color: #f6f6f6;
+      }
+      
+      .cardio__impair {
+            flex-direction: row-reverse;
+      }
+
+      .cardio__image {
+            border-radius: 0;
+            width: 50%;
+      }
+
+      .cardio__infos {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+      }
+
+      .cardio__infos__title {
+            position: relative;
+            margin-bottom: 2rem;
+      }
+
+      .cardio__infos__title::after {
+            content: '';
+            position: absolute;
+            right: 10%;
+            bottom: -5px;
+            height: 2px;
+            width: 40%;
+            background-color: #34a853;
+      }
+
+      .cardio__link {
+            align-self: center;
+      }
+
+      .cardio__info {
+            margin-bottom: 2rem;
+      }
+}
+
+@media screen and (min-width: 769px) {
+      .cardio__container {
+            padding: 3rem 10%;
+      }
+
+      .cardio__infos__title {
+            font-size: 2rem;
+            font-weight: 400;
+      }
+
+      .cardio__infos__title::after {
+            display: none;
+      }
+
+      .cardio__infos p {
+            font-size: 1rem;
+      }
+
+      .cardio__section,
+      .cardio__section p,
+      .cardio__section a,
+      .cardio__image {
+            position: relative;
+      }
+
+      .cardio__section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background-color: #fff;
+            transition: all 0.5s;
+      }
+
+      .cardio__section:hover::before {
+            width: 100%;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .cardio__container {
+            padding: 3rem 20%;
+      }
+}

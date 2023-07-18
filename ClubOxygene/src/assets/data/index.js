@@ -161,3 +161,17 @@ export const coachs = [
 
       }
 ];
+
+export const slider = [
+      "https://www.club-oxygene.com/wp-content/uploads/2017/02/max-musculation-800x400.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2017/02/maxime-rowing-800x400.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2022/04/exercice-TRX-musculation-saint-germain-en-laye-800x400.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2021/09/image1-800x400.jpeg",
+      "https://www.club-oxygene.com/wp-content/uploads/2020/09/escalade_poissy-640x320.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2020/09/escalade_marly_le_roi-640x320.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2017/02/maxime-cross-training-800x400.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2020/09/escalade_mareil_marly-640x320.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2017/02/greg-musculation-800x400.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2017/05/cross_training_club_oxygene-800x400.jpg",
+      "https://www.club-oxygene.com/wp-content/uploads/2017/03/cross-training-club-sport-gym-saint-germain-en-laye-yvelines-sport-musculation-e1495140158108-800x400.jpg",
+]

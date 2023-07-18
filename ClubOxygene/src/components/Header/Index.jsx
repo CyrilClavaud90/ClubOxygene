@@ -35,7 +35,9 @@ function Header() {
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link_cardio">Cardio / Muscu</a>
+                                          <NavLink to={ '/cardiomuscu' } className="nav__link link_cardio" onClick={closeMenu}>
+                                                Cardio / Muscu
+                                          </NavLink>
                                     </li>
 
                                     <li className="nav__item">
