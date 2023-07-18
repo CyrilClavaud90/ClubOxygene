@@ -1,9 +1,11 @@
-import { Route, Routes, useLocation } from "react-router-dom"
-import Legal from "../Copyright/legal"
-import Rule from "../Copyright/rule"
-import Footer from "../Footer"
-import Header from "../Header/Index"
-import { useEffect } from "react"
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import Header from "../Header/Index";
+import Coachs from "../Coachs";
+import CoachDetails from "../Coachs/CoachDetails";
+import Footer from "../Footer";
+import Legal from "../Copyright/legal";
+import Rule from "../Copyright/rule";
 
 function App() {
       const routePath = useLocation();
@@ -18,6 +20,10 @@ function App() {
 
       <Routes>
             <Route path="/" element={ <p>test</p> } />
+
+            <Route path="/coach/:id" element={ <CoachDetails /> } />
+            <Route path="/coachs" element={ <Coachs /> } />
+
             <Route path="/legal" element={ <Legal /> } />
             <Route path="/rule" element={ <Rule /> } />
       </Routes>

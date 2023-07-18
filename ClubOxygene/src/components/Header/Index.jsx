@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './styles.css';
 
 function Header() {
@@ -47,7 +47,9 @@ function Header() {
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__coachs">Coachs</a>
+                                          <NavLink to={ '/coachs' } className="nav__link link__coachs" onClick={closeMenu}>
+                                                Coachs
+                                          </NavLink>
                                     </li>
 
                                     <li className="nav__item">
