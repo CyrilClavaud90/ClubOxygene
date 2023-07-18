@@ -47,7 +47,9 @@ function Header() {
                                     </li>
 
                                     <li className="nav__item">
-                                          <NavLink to={ '/coachs' } className="nav__link link__coachs">Coachs</NavLink>
+                                          <NavLink to={ '/coachs' } className="nav__link link__coachs" onClick={closeMenu}>
+                                                Coachs
+                                          </NavLink>
                                     </li>
 
                                     <li className="nav__item">

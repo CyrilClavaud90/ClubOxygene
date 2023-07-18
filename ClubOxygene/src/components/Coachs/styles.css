@@ -1,4 +1,5 @@
-.coachs__container {
+.coachs__container,
+.coach__container {
       padding: 3rem 1rem;
       background-color: #f6f6f6;
 }
@@ -8,16 +9,18 @@
       padding-bottom: 1rem;
 }
 
-.coachs__list {}
-
-.person__card {
+.person__card,
+.coach__infos,
+.coach__schedule {
       margin: 2rem 0;
+      padding-bottom: 1.5rem;
       border-radius: 5px;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
       background-color: #fff;
 }
 
-.person__image {
+.person__image,
+.coach__image {
       width: 100%;
       border-radius: 5px 5px 0 0;
 }
@@ -31,14 +34,116 @@
       text-align: center;
       font-weight: 400;
       font-size: 1.5rem;
+      color: #000;
 }
 
 .person__presentation {
       text-align: center;
+      color: #000;
+}
+
+.coach__title,
+.schedule__title {
+      padding: 1.5rem 0;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.4rem;
+}
+
+.schedule__content {
+      margin: 1rem;
+      padding: 0.8rem;
+      border-radius: 5px;
+      background-color: #f6f6f6;
+
+}
+
+.schedule__name {
+      font-weight: 500;
+}
+
+.schedule__detail {
+      margin-bottom: 0.6rem;
+}
+
+.schedule__time {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+}
+
+
+/* ===== Media Query ===== */
+@media screen and (min-width: 426px) {
+      .coach__infos {
+            display: flex;
+            padding: 0;
+      }
+
+      .coach__image {
+            width: 40%;
+            object-fit: cover;
+            border-radius: 5px 0 0 5px;
+      }
+
+      .coach__presentation {
+            width: 60%;
+            margin-bottom: 1rem;
+      }
+
+      .coach__title {
+            padding: 1.5rem 0 0;
+      }
+
+      .schedule__content {
+            margin: 1rem 3rem;
+            padding: 2rem 2rem 1rem;
+      }
+
+      .schedule__infos {
+            display: flex;
+            margin-bottom: 1rem;
+      }
+
+      .schedule__class {
+            position: relative;
+            width: 33%;
+      }
+
+      .schedule__name::after {
+            content: "";
+            position: absolute;
+            left: 2rem;
+            top: 1.8rem;
+            height: 1px;
+            width: 80%;
+            background-color: #34a853;
+      }
+
+      .schedule__detail {
+            display: flex;
+            flex-direction: column;
+            width: 67%;
+      }
+
+      span:first-child {
+            text-align: center;
+      }
+
+      span:nth-child(2) {
+            text-align: end;
+      }
+
+      span {
+            width: 50%;
+      }
+      
 }
 
 @media screen and (min-width: 769px) {
-      .coachs__container {
+      .coachs__container,
+      .coach__container {
             padding: 3rem 10%;
       }
 
@@ -51,10 +156,36 @@
       .person__card {
             width: 46%;
       }
+
+      .schedule__class {
+            position: relative;
+            width: 50%;
+      }
+
+      .schedule__detail {
+            width: 50%;
+      }
+
+      .coach__presentation {
+            padding: 0 2rem;
+      }
+      
+            .coach__title {
+                  margin-bottom: 1rem;
+            }
+
+      .person__presentation {
+            text-align: justify;
+      }
 }
 
 @media screen and (min-width: 1025px) {
-      .coachs__container {
+      .coachs__container,
+      .coach__container {
             padding: 3rem 20%;
+      }
+
+      .coach__presentation {
+            padding: 1rem 3rem;
       }
 }

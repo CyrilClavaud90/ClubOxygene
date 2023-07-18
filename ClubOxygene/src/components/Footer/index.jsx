@@ -9,12 +9,12 @@ function Footer() {
                   <div className="footer__container">
                         <div className="footer__top">
                               <div className="footer__social">
-                                    <a href="#" className="footer__social__link">
+                                    <a href="https://www.facebook.com/ClubOxygeneBlocetFitness/" target="_blank" className="footer__social__link">
                                           <i className="uil uil-facebook footer__social__logo"></i>
                                           <span className="footer__social__alt"> Facebook</span>
                                     </a>
 
-                                    <a href="#" className="footer__social__link">
+                                    <a href="https://www.instagram.com/club_oxygene/" target="_blank" className="footer__social__link">
                                           <i className="uil uil-instagram footer__social__logo"></i>
                                           <span className="footer__social__alt"> Instagram</span>
                                     </a>
