@@ -24,14 +24,16 @@ function Header() {
                         
                         <div className="nav__menu">
                               <div className="nav__logo menu__logo">
-                                    <Link to={ '/' } onClick={closeMenu}>
+                                    <NavLink to={ '/' } onClick={closeMenu}>
                                           <img src="https://www.club-oxygene.com/wp-content/uploads/2017/03/Logo-good-size.png" alt="club oxygène logo" />
-                                    </Link>
+                                    </NavLink>
                               </div>
 
                               <ul className="nav__list">
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__escalade">Escalade de bloc</a>
+                                          <a href="" className="nav__link link__escalade" onClick={closeMenu}>
+                                                Escalade de bloc
+                                          </a>
                                     </li>
 
                                     <li className="nav__item">
@@ -41,11 +43,15 @@ function Header() {
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__cours-collectifs">Cours collectifs</a>
+                                          <a href="" className="nav__link link__cours-collectifs" onClick={closeMenu}>
+                                                Cours collectifs
+                                          </a>
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__small">Small group</a>
+                                          <a href="" className="nav__link link__small" onClick={closeMenu}>
+                                                Small group
+                                          </a>
                                     </li>
 
                                     <li className="nav__item">
@@ -55,11 +61,15 @@ function Header() {
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__tarifs">Tarifs</a>
+                                          <NavLink to={'/tarifs'} className="nav__link link__tarifs" onClick={closeMenu}>
+                                                Tarifs
+                                          </NavLink>
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__cours-essai">Cours d'essai</a>
+                                          <a href="" className="nav__link link__cours-essai" onClick={closeMenu}>
+                                                Cours d'essai
+                                          </a>
                                     </li>
                               </ul>
                               <i className="uil uil-times nav__close" onClick={closeMenu}></i>

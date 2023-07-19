@@ -81,6 +81,10 @@
       font-size: 0.9rem;
 }
 
+.footer__copyright a {
+      color: #000;
+}
+
 @media screen and (min-width: 426px) {
       .footer__scroll-to-top {
             display: block;
