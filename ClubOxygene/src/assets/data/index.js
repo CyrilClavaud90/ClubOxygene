@@ -175,3 +175,24 @@ export const slider = [
       "https://www.club-oxygene.com/wp-content/uploads/2017/05/cross_training_club_oxygene-800x400.jpg",
       "https://www.club-oxygene.com/wp-content/uploads/2017/03/cross-training-club-sport-gym-saint-germain-en-laye-yvelines-sport-musculation-e1495140158108-800x400.jpg",
 ]
+
+export const priceTags = [
+      {
+            id: 0,
+            name: "Machines & bloc",
+            price: "49,90",
+            type: "Cours vidéo uniquement"
+      },
+      {
+            id: 1,
+            name: "Premium",
+            price: "59,90",
+            type: "Cours collectifs"
+      },
+      {
+            id: 2,
+            name: "Etudiant",
+            price: "39,90",
+            type: "Cours collectifs"
+      }
+];
