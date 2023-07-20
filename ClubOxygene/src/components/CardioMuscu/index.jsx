@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Slide } from 'react-slideshow-image';
-import { slider } from '../../assets/data';
+import { sliderCardio } from '../../assets/data';
 import 'react-slideshow-image/dist/styles.css'
 import "./styles.css";
 
@@ -20,7 +20,7 @@ function CardioMuscu() {
                   <section className="slide__container">
                         <Slide {...proprietes}>
                               {
-                                    slider.map((element) => (
+                                    sliderCardio.map((element) => (
                                           <div key={element}>
                                                 <img src={element} alt="photo de la salle" className="slider__img"/>
                                           </div>

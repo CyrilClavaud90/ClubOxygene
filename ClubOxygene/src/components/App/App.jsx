@@ -1,6 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "../Header/Index";
+import Escalade from "../Escalade";
 import CardioMuscu from "../CardioMuscu";
 import Coachs from "../Coachs";
 import CoachDetails from "../Coachs/CoachDetails";
@@ -22,6 +23,8 @@ function App() {
 
       <Routes>
             <Route path="/" element={ <p>test</p> } />
+            
+            <Route path="/escalade" element={ <Escalade /> } />
 
             <Route path="/cardiomuscu" element={ <CardioMuscu /> } />
 

@@ -31,8 +31,6 @@
       width: 100%;
 }
 
-.tarifs__other {}
-
 .tarifs__other__title {
       margin: 0 0 2rem;
       font-weight: 500;
@@ -42,9 +40,6 @@
       margin: 2rem 0 0.8rem;
       font-weight: 500;
 }
-
-
-
 
 
 /* ===== Tarif ===== */

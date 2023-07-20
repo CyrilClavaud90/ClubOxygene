@@ -1,0 +1,143 @@
+.escalade__container {
+      padding: 3rem 1rem;
+      /* background-color: red; */
+}
+
+.escalade__title {
+      text-align: center;
+      padding-bottom: 2.5rem;
+}
+
+.escalade__section {
+            margin: 2rem 0;
+            padding-bottom: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+}
+
+.escalade__img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+}
+
+.escalade__infos {
+      text-align: center;
+      padding: 1rem 0.5rem;
+}
+
+.escalade__infos h2 {
+      margin-bottom: 1rem;
+      font-weight: 500;
+}
+
+.escalade__infos div p {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+}
+
+.escalade__link {
+      padding: 0.3rem 1rem;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #34a853;
+}
+
+
+
+
+.escalade__formule .tarif__head h2 {
+      text-align: center;
+}
+
+.tarif__infos {
+      display: flex;
+      justify-content: space-between;
+}
+
+.tarif__infos p:first-child {
+      width: 70%;
+}
+
+.tarif__infos p:last-child {
+      width: 25%;
+      text-align: end;
+}
+
+
+
+/* ===== Media query ===== */
+@media screen and (min-width: 426px) {
+      .escalade__section {
+            margin: 4rem 0;
+            padding-bottom: 0;
+            display: flex;
+            border-radius: 0;
+            box-shadow: none;
+            /* background-color: #f6f6f6; */
+      }
+      
+      .escalade__impair {
+            flex-direction: row-reverse;
+      }
+
+      .tarif__escalade {
+            width: 80%;
+            margin: 0 auto;
+      }
+
+      .escalade__img {
+            border-radius: 0;
+            object-fit: cover;
+            width: 50%;
+      }
+
+      .escalade__infos {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+      }
+
+      .escalade__infos h2 {
+            position: relative;
+            margin-bottom: 2rem;
+      }
+
+      .escalade__infos h2::after {
+            content: '';
+            position: absolute;
+            right: 10%;
+            bottom: -5px;
+            height: 2px;
+            width: 40%;
+            background-color: #34a853;
+      }
+      
+      .escalade__infos h2,
+      .escalade__infos p {
+            text-align: justify;
+
+      }
+
+      /* .escalade__link {
+            align-self: center;
+      } */
+}
+
+@media screen and (min-width: 769px) {
+      .escalade__container {
+            padding: 3rem 10%;
+      }
+      
+      .tarif__escalade {
+            width: 60%;
+            margin: 0 auto;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .escalade__container {
+            padding: 3rem 20%;
+      }
+}
