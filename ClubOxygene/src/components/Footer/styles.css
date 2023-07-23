@@ -77,8 +77,14 @@
 .footer__copyright {
       display: flex;
       justify-content: space-between;
-      margin: 2rem 1rem;
+      margin: 0 1rem;
       font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+      .footer__copyright {
+            margin: 2rem 1rem;
+      }
 }
 
 .footer__copyright a {

@@ -1,0 +1,256 @@
+.escalade__container,
+.cours-escalade__container,
+.bloc-park__container,
+.anniversaires__container  {
+      padding: 3rem 1rem;
+      background-color: #f6f6f6;
+}
+
+.escalade__title,
+.cours-escalade__title,
+.bloc-park__title,
+.anniversaires__title {
+      text-align: center;
+      padding-bottom: 2.5rem;
+}
+
+.escalade__section,
+.cours__container,
+.stages__container,
+.carte__section,
+.pan-gullich__section,
+.machine__section,
+.casier__section,
+.anniversaires__section {
+            margin: 2rem 0;
+            padding-bottom: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+}
+
+.escalade__img,
+.cours__img,
+.stages__img,
+.carte__maps,
+.pan-gullich__img,
+.machine__img,
+.casier__img,
+.anniversaires__img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+}
+
+.escalade__infos,
+.carte__infos,
+.pan-gullich__infos,
+.machine__infos,
+.casier__infos,
+.anniversaires__infos {
+      text-align: center;
+      padding: 1rem 0.5rem;
+}
+
+.escalade__infos h2,
+.cours__infos h2,
+.stages__infos h2,
+.pan-gullich__infos h2,
+.machine__infos h2,
+.casier__infos h2,
+.anniversaires__infos h2 {
+      margin-bottom: 1rem;
+      font-weight: 500;
+}
+
+.escalade__infos div p {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+}
+
+.escalade__link {
+      padding: 0.3rem 1rem;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #34a853;
+}
+
+.escalade__formule .tarif__head h2 {
+      text-align: center;
+}
+
+.tarif__infos {
+      display: flex;
+      justify-content: space-between;
+}
+
+.tarif__infos p:first-child {
+      width: 70%;
+}
+
+.tarif__infos p:last-child {
+      width: 25%;
+      text-align: end;
+}
+
+.cours__infos,
+.stages__infos {
+      padding: 3rem 0.5rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: justify;
+}
+
+.carte__infos p {
+      margin-bottom: 2rem;
+}
+
+.carte__link {
+      padding: 0.3rem 1rem;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #34a853;
+}
+
+.anniversaires__invit {
+      color: #000;
+      text-decoration: underline;
+}
+
+
+/* ===== Media query ===== */
+@media screen and (min-width: 426px) {
+      .escalade__section {
+            margin: 4rem 0;
+            padding-bottom: 0;
+            display: flex;
+            border-radius: 0;
+            box-shadow: none;
+      }
+      
+      .escalade__impair {
+            flex-direction: row-reverse;
+      }
+
+      .tarif__escalade {
+            width: 80%;
+            margin: 0 auto;
+      }
+
+      .escalade__img {
+            border-radius: 0;
+            object-fit: cover;
+            width: 50%;
+      }
+
+      .escalade__infos,
+      .carte__infos,
+      .pan-gullich__infos,
+      .machine__infos,
+      .casier__infos,
+      .anniversaires__infos {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+      }
+
+      .cours__infos,
+      .stages__infos {
+            padding: 1.5rem;
+      }
+
+      .escalade__infos h2 {
+            position: relative;
+            margin-bottom: 2rem;
+      }
+
+      .escalade__infos h2::after {
+            content: '';
+            position: absolute;
+            right: 10%;
+            bottom: -5px;
+            height: 2px;
+            width: 40%;
+            background-color: #34a853;
+      }
+      
+      .escalade__infos h2,
+      .escalade__infos p,
+      .anniversaires__infos p {
+            text-align: justify;
+
+      }
+
+      .carte__section,
+      .pan-gullich__section,
+      .machine__section,
+      .casier__section,
+      .anniversaires__section {
+            padding-bottom: 0;
+            display: flex;
+      }
+
+      .anniversaires__section {
+            background-color: #f6f6f6;
+            box-shadow: none;
+      }
+      
+      .carte__section {
+            margin-top: 4rem;
+      }
+
+      .carte__section,
+      .pan-gullich__section,
+      .machine__section {
+            margin-bottom: 4rem;
+      }
+
+      .pan-gullich__section,
+      .casier__section {
+            flex-direction: row-reverse;
+      }
+
+      .carte__maps,
+      .pan-gullich__img,
+      .machine__img,
+      .casier__img,
+      .anniversaires__img {
+            width: 40%;
+            border-radius: 5px 0 0 5px;
+            object-fit: cover;
+      }
+
+      .pan-gullich__img,
+      .casier__img {
+            border-radius: 0 5px 5px 0;
+      }
+
+      .carte__link {
+            margin: auto;
+      }
+
+}
+
+@media screen and (min-width: 769px) {
+      .escalade__container,
+      .cours-escalade__container,
+      .bloc-park__container,
+      .anniversaires__container  {
+            padding: 3rem 10%;
+      }
+      
+      .tarif__escalade {
+            width: 60%;
+            margin: 0 auto;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .escalade__container,
+      .cours-escalade__container,
+      .bloc-park__container,
+      .anniversaires__container  {
+            padding: 3rem 20%;
+      }
+}

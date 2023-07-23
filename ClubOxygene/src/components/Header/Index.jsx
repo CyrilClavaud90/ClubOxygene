@@ -31,9 +31,9 @@ function Header() {
 
                               <ul className="nav__list">
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__escalade" onClick={closeMenu}>
+                                          <NavLink to={'/escalade'} className="nav__link link__escalade" onClick={closeMenu}>
                                                 Escalade de bloc
-                                          </a>
+                                          </NavLink>
                                     </li>
 
                                     <li className="nav__item">

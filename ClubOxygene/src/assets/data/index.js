@@ -162,7 +162,95 @@ export const coachs = [
       }
 ];
 
-export const slider = [
+export const sliderEscalade = [
+      {
+            name: "https://www.club-oxygene.com/wp-content/uploads/2022/04/david-grimpe-e1649108090623-800x400.jpg",
+            id: 0,
+      },
+      {
+            name: "https://www.club-oxygene.com/wp-content/uploads/2022/07/contest-escalade-549-800x400.jpg",
+            id: 1,
+      },
+      {
+            name: "https://www.club-oxygene.com/wp-content/uploads/2022/04/espace-escalade-e1649105570262-800x400.jpg",
+            id: 2,
+      },
+      {
+            name: "https://www.club-oxygene.com/wp-content/uploads/2022/04/escalade-saint-germain-en-laye-800x400.jpg",
+            id: 3,
+      },
+      {
+            name: "https://www.club-oxygene.com/wp-content/uploads/2022/04/bloc-park-saint-germain-en-laye-e1649105601863-800x400.jpg",
+            id: 4,
+      },
+      {
+            name: "https://www.club-oxygene.com/wp-content/uploads/2022/07/contest-escalade-593-800x400.jpg",
+            id: 5,
+      },
+      {
+            name: "https://www.club-oxygene.com/wp-content/uploads/2022/07/contest-escalade-552-800x400.jpg",
+            id: 6,
+      },
+      {
+            name: "https://www.club-oxygene.com/wp-content/uploads/2022/04/espace-marvel-800x400.jpg",
+            id: 7,
+      }
+];
+
+export const escaladeTarifs = [
+      {
+            id: 0,
+            name: "Tarif à la séance",
+            price: "14 €"
+      },
+      {
+            id: 1,
+            name: "A la séance réduit (11-17h semaine, étudiants, licenciés)",
+            price: "12 €"
+      },
+      {
+            id: 2,
+            name: "A la séance, enfant -10 ans",
+            price: "12 €"
+      },
+      {
+            id: 3,
+            name: "10 Séances",
+            price: "125 €"
+      },
+      {
+            id: 4,
+            name: "10 Séances réduit",
+            price: "105 €"
+      },
+      {
+            id: 5,
+            name: "10 Séances enfant",
+            price: "70 €"
+      },
+      {
+            id: 6,
+            name: "Abonnement mensuel",
+            price: "49.90 €"
+      },
+      {
+            id: 7,
+            name: "Location chaussons",
+            price: "4 €"
+      },
+      {
+            id: 8,
+            name: "Location chaussons enfants",
+            price: "3 €"
+      },
+      {
+            id: 9,
+            name: "Magnésie liquide",
+            price: "9,90 €"
+      },
+];
+
+export const sliderCardio = [
       "https://www.club-oxygene.com/wp-content/uploads/2017/02/max-musculation-800x400.jpg",
       "https://www.club-oxygene.com/wp-content/uploads/2017/02/maxime-rowing-800x400.jpg",
       "https://www.club-oxygene.com/wp-content/uploads/2022/04/exercice-TRX-musculation-saint-germain-en-laye-800x400.jpg",
@@ -174,7 +262,7 @@ export const slider = [
       "https://www.club-oxygene.com/wp-content/uploads/2017/02/greg-musculation-800x400.jpg",
       "https://www.club-oxygene.com/wp-content/uploads/2017/05/cross_training_club_oxygene-800x400.jpg",
       "https://www.club-oxygene.com/wp-content/uploads/2017/03/cross-training-club-sport-gym-saint-germain-en-laye-yvelines-sport-musculation-e1495140158108-800x400.jpg",
-]
+];
 
 export const priceTags = [
       {
