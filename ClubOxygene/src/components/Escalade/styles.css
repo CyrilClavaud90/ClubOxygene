@@ -1,13 +1,15 @@
 .escalade__container,
 .cours-escalade__container,
-.bloc-park__container  {
+.bloc-park__container,
+.anniversaires__container  {
       padding: 3rem 1rem;
       background-color: #f6f6f6;
 }
 
 .escalade__title,
 .cours-escalade__title,
-.bloc-park__title {
+.bloc-park__title,
+.anniversaires__title {
       text-align: center;
       padding-bottom: 2.5rem;
 }
@@ -18,7 +20,8 @@
 .carte__section,
 .pan-gullich__section,
 .machine__section,
-.casier__section {
+.casier__section,
+.anniversaires__section {
             margin: 2rem 0;
             padding-bottom: 1.5rem;
             border-radius: 5px;
@@ -32,7 +35,8 @@
 .carte__maps,
 .pan-gullich__img,
 .machine__img,
-.casier__img {
+.casier__img,
+.anniversaires__img {
       width: 100%;
       border-radius: 5px 5px 0 0;
 }
@@ -41,7 +45,8 @@
 .carte__infos,
 .pan-gullich__infos,
 .machine__infos,
-.casier__infos {
+.casier__infos,
+.anniversaires__infos {
       text-align: center;
       padding: 1rem 0.5rem;
 }
@@ -51,7 +56,8 @@
 .stages__infos h2,
 .pan-gullich__infos h2,
 .machine__infos h2,
-.casier__infos h2 {
+.casier__infos h2,
+.anniversaires__infos h2 {
       margin-bottom: 1rem;
       font-weight: 500;
 }
@@ -106,6 +112,10 @@
       background-color: #34a853;
 }
 
+.anniversaires__invit {
+      color: #000;
+      text-decoration: underline;
+}
 
 
 /* ===== Media query ===== */
@@ -137,7 +147,8 @@
       .carte__infos,
       .pan-gullich__infos,
       .machine__infos,
-      .casier__infos {
+      .casier__infos,
+      .anniversaires__infos {
             padding: 1.5rem;
             display: flex;
             flex-direction: column;
@@ -165,7 +176,8 @@
       }
       
       .escalade__infos h2,
-      .escalade__infos p {
+      .escalade__infos p,
+      .anniversaires__infos p {
             text-align: justify;
 
       }
@@ -173,11 +185,16 @@
       .carte__section,
       .pan-gullich__section,
       .machine__section,
-      .casier__section {
+      .casier__section,
+      .anniversaires__section {
             padding-bottom: 0;
             display: flex;
       }
 
+      .anniversaires__section {
+            background-color: #f6f6f6;
+            box-shadow: none;
+      }
       
       .carte__section {
             margin-top: 4rem;
@@ -197,7 +214,8 @@
       .carte__maps,
       .pan-gullich__img,
       .machine__img,
-      .casier__img {
+      .casier__img,
+      .anniversaires__img {
             width: 40%;
             border-radius: 5px 0 0 5px;
             object-fit: cover;
@@ -217,7 +235,8 @@
 @media screen and (min-width: 769px) {
       .escalade__container,
       .cours-escalade__container,
-      .bloc-park__container {
+      .bloc-park__container,
+      .anniversaires__container  {
             padding: 3rem 10%;
       }
       
@@ -230,7 +249,8 @@
 @media screen and (min-width: 1025px) {
       .escalade__container,
       .cours-escalade__container,
-      .bloc-park__container {
+      .bloc-park__container,
+      .anniversaires__container  {
             padding: 3rem 20%;
       }
 }

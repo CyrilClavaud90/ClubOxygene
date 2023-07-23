@@ -113,9 +113,9 @@ function Escalade() {
                                                 <p>
                                                 Organisation de fêtes d'anniversaire sur demande.
                                                 </p>
-                                                <a href="" className="escalade__link">
+                                                <Link to={"/anniversaires"} className="escalade__link">
                                                       En savoir plus
-                                                </a>
+                                                </Link>
                                           </div>
                                     </div>
                   </section>
