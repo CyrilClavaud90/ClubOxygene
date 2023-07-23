@@ -2,6 +2,8 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "../Header/Index";
 import Escalade from "../Escalade";
+import CoursEscalade from "../Escalade/CoursEscalade";
+import BlocPark from "../Escalade/BlocPark";
 import CardioMuscu from "../CardioMuscu";
 import Coachs from "../Coachs";
 import CoachDetails from "../Coachs/CoachDetails";
@@ -25,6 +27,8 @@ function App() {
             <Route path="/" element={ <p>test</p> } />
             
             <Route path="/escalade" element={ <Escalade /> } />
+            <Route path="/coursescalade" element={ <CoursEscalade /> } />
+            <Route path="/blocpark" element={ <BlocPark /> } />
 
             <Route path="/cardiomuscu" element={ <CardioMuscu /> } />
 

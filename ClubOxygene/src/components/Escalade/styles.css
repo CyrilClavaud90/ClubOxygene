@@ -1,14 +1,24 @@
-.escalade__container {
+.escalade__container,
+.cours-escalade__container,
+.bloc-park__container  {
       padding: 3rem 1rem;
-      /* background-color: red; */
+      background-color: #f6f6f6;
 }
 
-.escalade__title {
+.escalade__title,
+.cours-escalade__title,
+.bloc-park__title {
       text-align: center;
       padding-bottom: 2.5rem;
 }
 
-.escalade__section {
+.escalade__section,
+.cours__container,
+.stages__container,
+.carte__section,
+.pan-gullich__section,
+.machine__section,
+.casier__section {
             margin: 2rem 0;
             padding-bottom: 1.5rem;
             border-radius: 5px;
@@ -16,17 +26,32 @@
             background-color: #fff;
 }
 
-.escalade__img {
+.escalade__img,
+.cours__img,
+.stages__img,
+.carte__maps,
+.pan-gullich__img,
+.machine__img,
+.casier__img {
       width: 100%;
       border-radius: 5px 5px 0 0;
 }
 
-.escalade__infos {
+.escalade__infos,
+.carte__infos,
+.pan-gullich__infos,
+.machine__infos,
+.casier__infos {
       text-align: center;
       padding: 1rem 0.5rem;
 }
 
-.escalade__infos h2 {
+.escalade__infos h2,
+.cours__infos h2,
+.stages__infos h2,
+.pan-gullich__infos h2,
+.machine__infos h2,
+.casier__infos h2 {
       margin-bottom: 1rem;
       font-weight: 500;
 }
@@ -42,9 +67,6 @@
       color: #fff;
       background-color: #34a853;
 }
-
-
-
 
 .escalade__formule .tarif__head h2 {
       text-align: center;
@@ -64,6 +86,26 @@
       text-align: end;
 }
 
+.cours__infos,
+.stages__infos {
+      padding: 3rem 0.5rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: justify;
+}
+
+.carte__infos p {
+      margin-bottom: 2rem;
+}
+
+.carte__link {
+      padding: 0.3rem 1rem;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #34a853;
+}
+
 
 
 /* ===== Media query ===== */
@@ -74,7 +116,6 @@
             display: flex;
             border-radius: 0;
             box-shadow: none;
-            /* background-color: #f6f6f6; */
       }
       
       .escalade__impair {
@@ -92,11 +133,20 @@
             width: 50%;
       }
 
-      .escalade__infos {
+      .escalade__infos,
+      .carte__infos,
+      .pan-gullich__infos,
+      .machine__infos,
+      .casier__infos {
             padding: 1.5rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
+      }
+
+      .cours__infos,
+      .stages__infos {
+            padding: 1.5rem;
       }
 
       .escalade__infos h2 {
@@ -120,13 +170,54 @@
 
       }
 
-      /* .escalade__link {
-            align-self: center;
-      } */
+      .carte__section,
+      .pan-gullich__section,
+      .machine__section,
+      .casier__section {
+            padding-bottom: 0;
+            display: flex;
+      }
+
+      
+      .carte__section {
+            margin-top: 4rem;
+      }
+
+      .carte__section,
+      .pan-gullich__section,
+      .machine__section {
+            margin-bottom: 4rem;
+      }
+
+      .pan-gullich__section,
+      .casier__section {
+            flex-direction: row-reverse;
+      }
+
+      .carte__maps,
+      .pan-gullich__img,
+      .machine__img,
+      .casier__img {
+            width: 40%;
+            border-radius: 5px 0 0 5px;
+            object-fit: cover;
+      }
+
+      .pan-gullich__img,
+      .casier__img {
+            border-radius: 0 5px 5px 0;
+      }
+
+      .carte__link {
+            margin: auto;
+      }
+
 }
 
 @media screen and (min-width: 769px) {
-      .escalade__container {
+      .escalade__container,
+      .cours-escalade__container,
+      .bloc-park__container {
             padding: 3rem 10%;
       }
       
@@ -137,7 +228,9 @@
 }
 
 @media screen and (min-width: 1025px) {
-      .escalade__container {
+      .escalade__container,
+      .cours-escalade__container,
+      .bloc-park__container {
             padding: 3rem 20%;
       }
 }

@@ -1,6 +1,7 @@
 import { Slide } from "react-slideshow-image";
 import { escaladeTarifs, sliderEscalade } from "../../assets/data";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 const proprietes = {
       duration: 4000,
@@ -91,18 +92,21 @@ function Escalade() {
                                                 <p>
                                                 Cours d'escalade encadrés par notre professeur diplômé le mardi, mercredi, samedi et dimanche - Stages pendant les vacances scolaires.
                                                 </p>
-                                                <a href="" className="escalade__link">
+                                                <Link
+                                                      to={"/coursescalade"}
+                                                      className="escalade__link"
+                                                >
                                                       En savoir plus
-                                                </a>
+                                                </Link>
                                           </div>
 
                                           <div className="">
                                                 <p>
                                                 Située à Saint Germain en Laye dans les Yvelines 78, la salle d'escalade Oxygène est à deux pas de Poissy, Le Pecq, Marly le Roi, l'Etang la Ville, Saint Nom la Bretèche, Mareil Marly, Fourqueux, Louveciennes, Bougival, le Port Marly. La salle est facile d'accès et nous disposons d'un parking.
                                                 </p>
-                                                <a href="" className="escalade__link">
+                                                <Link to={"/blocpark"} className="escalade__link">
                                                       En savoir plus
-                                                </a>
+                                                </Link>
                                           </div>
 
                                           <div className="">
