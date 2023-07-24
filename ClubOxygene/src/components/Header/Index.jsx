@@ -49,9 +49,9 @@ function Header() {
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__small" onClick={closeMenu}>
+                                          <NavLink to={"/smallgroup"} className="nav__link link__small" onClick={closeMenu}>
                                                 Small group
-                                          </a>
+                                          </NavLink>
                                     </li>
 
                                     <li className="nav__item">

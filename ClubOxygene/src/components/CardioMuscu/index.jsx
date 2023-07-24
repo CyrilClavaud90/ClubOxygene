@@ -68,10 +68,9 @@ function CardioMuscu() {
                               <p className="cardio__info">
                                     Nos coachs vous accompagnent lors de votre bilan individuel (inclus), en coaching privé (50€/heure) ou en small group training.
                               </p>
-                              <a href="" className="cardio__link">
+                              <Link to={"/smallgroup"} className="cardio__link">
                                     Small group training
-                              </a>
-                              {/* <Link to={"/smallgrouptraining"} className="cardio__link">Small group training</Link> */}
+                              </Link>
                         </div>
                   </section>
             </div>

@@ -6,6 +6,7 @@ import CoursEscalade from "../Escalade/CoursEscalade";
 import BlocPark from "../Escalade/BlocPark";
 import Anniversaires from "../Escalade/Anniversaires";
 import CardioMuscu from "../CardioMuscu";
+import SmallGroup from "../SmallGroup";
 import Coachs from "../Coachs";
 import CoachDetails from "../Coachs/CoachDetails";
 import Tarifs from "../Tarifs";
@@ -31,6 +32,8 @@ function App() {
             <Route path="/coursescalade" element={ <CoursEscalade /> } />
             <Route path="/blocpark" element={ <BlocPark /> } />
             <Route path="/anniversaires" element={ <Anniversaires /> } />
+            
+            <Route path="/smallgroup" element={ <SmallGroup /> } />
 
             <Route path="/cardiomuscu" element={ <CardioMuscu /> } />
 
