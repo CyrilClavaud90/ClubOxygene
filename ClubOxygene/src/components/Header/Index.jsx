@@ -43,9 +43,9 @@ function Header() {
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__cours-collectifs" onClick={closeMenu}>
+                                          <NavLink to={"/courscollectifs"} className="nav__link link__cours-collectifs" onClick={closeMenu}>
                                                 Cours collectifs
-                                          </a>
+                                          </NavLink>
                                     </li>
 
                                     <li className="nav__item">
