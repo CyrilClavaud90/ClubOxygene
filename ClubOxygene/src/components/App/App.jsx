@@ -11,9 +11,10 @@ import SmallGroup from "../SmallGroup";
 import Coachs from "../Coachs";
 import CoachDetails from "../Coachs/CoachDetails";
 import Tarifs from "../Tarifs";
-import Footer from "../Footer";
+import Contact from "../Contact";
 import Legal from "../Copyright/legal";
 import Rule from "../Copyright/rule";
+import Footer from "../Footer";
 
 function App() {
       const routePath = useLocation();
@@ -44,8 +45,9 @@ function App() {
             <Route path="/coach/:id" element={ <CoachDetails /> } />
             <Route path="/coachs" element={ <Coachs /> } />
 
-            
             <Route path="/tarifs" element={ <Tarifs /> } />
+
+            <Route path="/contact" element={ <Contact /> } />
 
             <Route path="/legal" element={ <Legal /> } />
             <Route path="/rule" element={ <Rule /> } />

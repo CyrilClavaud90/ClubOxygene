@@ -67,9 +67,9 @@ function Header() {
                                     </li>
 
                                     <li className="nav__item">
-                                          <a href="" className="nav__link link__cours-essai" onClick={closeMenu}>
-                                                Cours d'essai
-                                          </a>
+                                          <Link to={"/contact"} className="nav__link link__cours-essai" onClick={closeMenu}>
+                                                Contact
+                                          </Link>
                                     </li>
                               </ul>
                               <i className="uil uil-times nav__close" onClick={closeMenu}></i>
