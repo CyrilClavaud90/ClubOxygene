@@ -1,0 +1,106 @@
+.small-group__container {
+      padding: 3rem 1rem;
+      background-color: #f6f6f6;
+}
+
+.small-group__title {
+      text-align: center;
+      padding-bottom: 1rem;
+}
+
+.entrainement__section,
+.circuit__section {
+      margin: 2rem 0;
+      padding-bottom: 1.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+}
+
+.entrainement__img,
+.circuit__img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+}
+
+.entrainement__infos,
+.circuit__infos {
+      text-align: center;
+      padding: 1rem 0.5rem;
+}
+
+.entrainement__infos h2,
+.circuit__infos h2 {
+      margin-bottom: 1rem;
+      font-weight: 500;
+}
+
+.circuit__infos p:last-child {
+      margin-top: 1rem;
+}
+
+@media screen and (min-width: 426px) {
+      .entrainement__section,
+      .circuit__section {
+            margin: 4rem 0;
+            padding-bottom: 0;
+            display: flex;
+            border-radius: 0;
+            box-shadow: none;
+            background-color: #f6f6f6;
+      }
+      
+      .circuit__section {
+            flex-direction: row-reverse;
+            padding-top: 2rem;
+      }
+
+      .entrainement__img,
+      .circuit__img {
+            width: 50%;
+            border-radius: 0;
+      }
+
+      .entrainement__infos,
+      .circuit__infos {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+      }
+      
+      .entrainement__infos p,
+      .circuit__infos p {
+            text-align: justify;
+
+      }
+
+      .entrainement__infos h2,
+      .circuit__infos h2 {
+            position: relative;
+            margin-bottom: 2rem;
+      }
+
+      .entrainement__infos h2::after,
+      .circuit__infos h2::after {
+            content: '';
+            position: absolute;
+            right: 10%;
+            bottom: -5px;
+            height: 2px;
+            width: 40%;
+            background-color: #34a853;
+      }
+}
+
+@media screen and (min-width: 769px) {
+      .small-group__container {
+            padding: 3rem 10%;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .small-group__container {
+            padding: 3rem 20%;
+      }
+}
