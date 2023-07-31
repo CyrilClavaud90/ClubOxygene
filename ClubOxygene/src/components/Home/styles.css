@@ -1,0 +1,122 @@
+.home__header {
+      position: relative;
+      position: sticky;
+      top: 0;
+      z-index: -1;
+}
+
+.home__intro {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      background-color: rgba( 30, 48, 60, 0.75 );
+}
+
+.home__intro h1 {
+      font-weight: 200;
+      font-size: 1rem;
+}
+
+.home__main  {
+      padding: 3rem 1rem;
+      background-color: #f6f6f6;
+      z-index: 0;
+}
+
+.home__article {
+      margin: 2rem 0;
+      padding-bottom: 1.5rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+}
+
+.home__header__image,
+.home__image {
+      width: 100%;
+}
+
+.home__image {
+      border-radius: 5px 5px 0 0;
+}
+
+.home__infos {
+      text-align: center;
+      padding: 1rem 0.5rem;
+}
+
+.home__infos h2 {
+      margin-bottom: 1rem;
+      font-weight: 500;
+}
+
+.home__infos p {
+      margin-bottom: 1rem;
+}
+
+.home__link {
+      margin-top: 2rem;
+      padding: 0.3rem 1rem;
+      border-radius: 5px;
+      color: #fff;
+      background-color: #34a853;
+}
+
+
+@media screen and (min-width: 426px) {
+      .home__intro h1 {
+            font-weight: 300;
+            font-size: 1.5rem;
+      }
+
+      .home__article {
+            margin: 4rem 0;
+            padding-bottom: 0;
+            display: flex;
+            border-radius: 0;
+            box-shadow: none;
+      }
+
+      .home__image {
+            border-radius: 0;
+            width: 50%;
+      }
+
+      .home__impair {
+            flex-direction: row-reverse;
+      }
+
+      .home__infos {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+      }
+
+      .home__link {
+            align-self: center;
+      }
+}
+
+@media screen and (min-width: 769px) {
+      .home__intro h1 {
+            font-size: 2rem;
+      }
+
+      .home__main  {
+            padding: 3rem 10%;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .home__main  {
+            padding: 3rem 20%;
+      }
+}

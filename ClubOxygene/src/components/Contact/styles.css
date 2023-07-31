@@ -22,13 +22,6 @@
       border-radius: 5px 5px 0 0;
 }
 
-.contact__form:hover,
-input:hover,
-textarea:hover,
-label:hover {
-      cursor: not-allowed;
-}
-
 .contact__form {
       filter: opacity(0.5);
 }
@@ -74,6 +67,7 @@ label,
       border-radius: 5px;
       color: #fff;
       background-color: #34a853;
+      cursor: not-allowed;
 }
 
 .contact__checkbox {

@@ -73,6 +73,10 @@
       font-size: 0.9rem;
 }
 
+.footer__mail {
+      color: #000;
+}
+
 /* === Footer bottom === */
 .footer__copyright {
       display: flex;

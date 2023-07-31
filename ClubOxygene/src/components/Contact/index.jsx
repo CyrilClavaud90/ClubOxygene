@@ -90,7 +90,7 @@ function Contact() {
                                           </div>
 
                                           <div className="contact__submit">
-                                                <input type="submit" value="Envoyer" className="contact__submit-button" />
+                                                <input type="submit" value="Envoyer" className="contact__submit-button" disabled/>
                                           </div>
                                     </form>
                               </div>
