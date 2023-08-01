@@ -1,6 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "../Header/Index";
+import Home from "../Home";
 import Escalade from "../Escalade";
 import CoursEscalade from "../Escalade/CoursEscalade";
 import BlocPark from "../Escalade/BlocPark";
@@ -28,7 +29,7 @@ function App() {
       <Header />
 
       <Routes>
-            <Route path="/" element={ <p>test</p> } />
+            <Route path="/" element={ <Home /> } />
             
             <Route path="/escalade" element={ <Escalade /> } />
             <Route path="/coursescalade" element={ <CoursEscalade /> } />

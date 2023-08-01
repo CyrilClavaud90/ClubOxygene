@@ -43,7 +43,7 @@ function Footer() {
                                           <p className="footer__text">Téléphone:</p>
                                           <p className="footer__text">01 34 51 10 19</p>
                                           <p className="footer__text">
-                                                <Link to={"/contact"}>par mail cliquez ici</Link>
+                                                <Link to={"/contact"} className="footer__mail">par mail cliquez ici</Link>
                                           </p>
                                     </section>
 
