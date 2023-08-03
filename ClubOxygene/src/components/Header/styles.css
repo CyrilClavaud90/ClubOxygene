@@ -1,0 +1,144 @@
+header {
+      width: 100%;
+      /* position: fixed;
+      top: 0;
+      left: 0; */
+      z-index: 1;
+}
+
+.nav__container {
+      max-width: 768px;
+      background-color: #2d2e32;
+}
+
+.nav__logo {
+      padding: 2rem 0;
+      display: flex;
+      justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+      .nav__menu {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: -100%;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2d2e32;
+            transition: 0.4s;
+      }
+}
+
+.menu__logo {
+      padding-top: 4rem;
+      position: absolute;
+      top: 0;
+}
+
+.nav__list {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center;
+      list-style-type: none;
+}
+
+/* .nav__item {
+      font-size: 1rem;
+} */
+
+.nav__link {
+      color: #fff;
+}
+
+.nav__close {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 1.5rem;
+}
+
+.nav__toggle {
+      position: absolute;
+      top: 1rem;
+      right: 1.2rem;
+}
+
+.nav__open {
+      font-size: 1.5rem;
+      color: #fff;
+}
+
+.menu__open {
+      left: 0;
+}
+
+@media screen and (min-width: 769px) {
+      .nav__container {
+            max-width: 100%;
+            background-color: #2d2e32;
+            /* background-color: transparent; */
+            padding-bottom: 3rem;
+      }
+
+      .menu__logo,
+      .nav__open,
+      .nav__close {
+            display: none;
+      }
+
+      /* .nav__menu {} */
+
+      .nav__list {
+            flex-direction: row;
+            justify-content: center;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+      }
+
+      .nav__item {
+            position: relative;
+      }
+      .nav__link:hover::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotateX(180deg);
+            line-height: 0.8rem;
+            transform-origin: bottom;
+            background: linear-gradient(to top, #fff, transparent);
+            -webkit-background-clip: text;
+            color: transparent;
+      }
+      .link__escalade:hover:before {
+            content: "Escalade de bloc";
+      }
+
+      .link_cardio:hover:before {
+            content: "Cardio / Muscu";
+      }
+
+      .link__cours-collectifs:hover:before {
+            content: "Cours collectifs";
+      }
+
+      .link__small:hover:before {
+            content: "Small group";
+      }
+
+      .link__coachs:hover:before {
+            content: "Coachs";
+      }
+
+      .link__tarifs:hover:before {
+            content: "Tarifs";
+      }
+
+      .link__cours-essai:hover:before {
+            content: "Cours d'essai";
+      }
+}

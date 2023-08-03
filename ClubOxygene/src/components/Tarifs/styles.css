@@ -1,0 +1,152 @@
+/* ===== Tarifs ===== */
+.tarifs__container {
+      padding: 3rem 1rem;
+}
+
+.tarifs__title {
+      text-align: center;
+      padding-bottom: 2.5rem;
+}
+
+.tarifs__main {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin: 0 0 3rem;
+}
+
+.tarifs__main__condition {
+      margin: 1.5rem 0;
+}
+
+.tarifs__main__other {
+      
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+}
+
+.tarifs__main__card,
+.tarifs__main__add {
+      width: 100%;
+}
+
+.tarifs__other__title {
+      margin: 0 0 2rem;
+      font-weight: 500;
+}
+
+.tarifs__other h3 {
+      margin: 2rem 0 0.8rem;
+      font-weight: 500;
+}
+
+
+/* ===== Tarif ===== */
+.tarifs__main__other,
+.tarif__container {
+      text-align: center;
+      width: 100%;
+}
+
+.tarif__head {
+      padding: 0.6rem 0;
+      border-radius: 5px 5px 0 0;
+      background-color: #000;
+      color: #fff;
+      text-transform: uppercase;
+}
+
+.tarif__head h2 {
+      font-weight: 400;
+}
+
+.tarif__main {
+      background: linear-gradient(rgba(34,34,34,1) 0%,#000 100%);
+}
+
+.tarif__main__month p {
+      padding-top: 1.5rem;
+      color: lightgray;
+      font-size: 0.8rem;
+}
+
+.tarif__main__price p {
+      padding: 2rem 0 3rem;
+      font-size: 3.5rem;
+      color: #fff;
+}
+
+.tarif__main__inscription p {
+      color: #41a7cb;
+}
+
+.tarif__main__tag p {
+      padding: 1rem 0;
+      color: lightgray;
+}
+
+.tarif__include {
+      padding: 0.5rem 1rem;
+      background-color: #f1f1f1;
+}
+
+.tarif__footer {
+      width: 100%;
+      height: 2rem;
+      border-radius: 0 0 5px 5px;
+      background-color: #41a7cb;
+}
+
+.tarif__include div {
+      padding: 0.2rem 0;
+      border-bottom: solid 1px lightgray;
+}
+
+.tarif__include div:last-child {
+      border-bottom: none;
+}
+
+.tarif__include div p {
+      font-weight: 400;
+}
+
+
+/* ===== Media query ===== */
+@media screen and (min-width: 426px) {
+      .tarifs__main__card,
+      .tarifs__main__add,
+      .tarif__container {
+            width: 80%;
+            margin: 0 auto;
+      }
+}
+
+@media screen and (min-width: 769px) {
+      .tarifs__container {
+            padding: 3rem 10%;
+      }
+
+      .tarif__container {
+            width: 30%;
+      }
+      
+      .tarifs__main {
+            gap: 0;
+      }
+
+      .tarifs__main__condition {
+            margin: 2.5rem 0;
+      }
+
+      .tarifs__main__card,
+      .tarifs__main__add {
+            width: 40%;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .tarifs__container {
+            padding: 3rem 20%;
+      }
+}

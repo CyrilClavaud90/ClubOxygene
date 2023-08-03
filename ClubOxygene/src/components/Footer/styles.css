@@ -1,0 +1,134 @@
+/* === Footer top === */
+.footer__top {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 1rem;
+}
+
+.footer__social > .footer__social__link {
+      margin-right: 1.5rem;
+      color: #000;
+}
+
+@media screen and (max-width: 768px) {
+      .footer__social__alt {
+            display: none;
+      }
+}
+
+.footer__scroll-to-top__link:hover,
+.footer__scroll-to-top__logo:hover {
+      cursor: pointer;
+}
+
+.footer__scroll-to-top {
+      display: flex;
+      align-items: center;
+}
+
+.footer__scroll-to-top__link {
+      background-color: #fff;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+}
+
+.footer__scroll-to-top__logo {
+      margin-left: 0.4rem;
+      font-size: 1.2rem;
+}
+
+/* === Footer main === */
+.footer__main {
+      background-color: #f6f6f6;
+}
+
+.footer__info {
+      padding: 4rem 0.5rem;
+      text-align: center;
+}
+
+.footer__title {
+      position: relative;
+      text-transform: uppercase;
+      margin: 3rem 0 2rem;
+      font-size: 1rem;
+}
+
+.footer__title:first-child {
+      margin-top: 1rem;
+}
+
+.footer__title::after {
+      content: "";
+      position: absolute;
+      left: 40%;
+      bottom: -10px;
+      height: 2px;
+      width: 20%;
+      background-color: #34a853;
+}
+
+.footer__text {
+      line-height: 1.4rem;
+      font-size: 0.9rem;
+}
+
+.footer__mail {
+      color: #000;
+}
+
+/* === Footer bottom === */
+.footer__copyright {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 1rem;
+      font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+      .footer__copyright {
+            margin: 2rem 1rem;
+      }
+}
+
+.footer__copyright a {
+      color: #000;
+}
+
+@media screen and (min-width: 426px) {
+      .footer__scroll-to-top {
+            display: block;
+            width: 15%;
+            text-align: right;
+      }
+
+      .footer__info {
+            display: flex;
+            justify-content: space-around;
+      }
+
+      .footer__info section {
+            width: 30%;
+      }
+
+      .footer__copyright {
+            display: flex;
+            justify-content: space-evenly;
+      }
+}
+
+@media screen and (min-width: 769px) {
+      .footer__top,
+      .footer__main,
+      .footer__bottom {
+            padding: 2rem 10%;
+      }
+}
+
+@media screen and (min-width: 1025px) {
+      .footer__top,
+      .footer__main,
+      .footer__bottom {
+            padding: 2rem 20%;
+      }
+}
